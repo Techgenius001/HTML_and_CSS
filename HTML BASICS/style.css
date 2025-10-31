@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+nav .logo-li {
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: segoe UI;
+}
+
+nav .order-li {
+  margin-left: auto;
+  background-color: blanchedalmond;
+  padding: 0.5rem;
+  border-radius: 8px; 
+  margin-right: 2.5rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+#hero img {
+  width: 45%;
+  border-radius: 8px;
+}
+
+.hero-content h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  max-width: 75%;
+}
+
+.hero-content a {
+  text-decoration: underline;
+  color: black;
+}
+
+#about-us {
+  background-color: rgba(156, 98, 98, 0.308);
+}
+
+#about-us .container {
+  gap: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#about-us img {
+  width: 45%;
+  border-radius: 8px;
+}
+
+#about-us p {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+#about-us a {
+  color: black;
+}
+
+#about-us h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/* GALLERY */
+
+#gallery {
+  margin-top: 2rem;
+}
+.gallery-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.gallery-header h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.gallery-header p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+
+#gallery img {
+  max-width: 50%;
+  border-radius: 8px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
